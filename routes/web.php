@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/my-saved-designs', function () {
+    return view('mySavedDesigns');
+});
